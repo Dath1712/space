@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Music Website</title>
+    <link rel="stylesheet" href="deco.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="TEAM 6 logo.png" alt="Team Logo" class="logo" height="150">
+            <nav> 
+                <a href="index.html">Home</a>
+                <a href="genres.html">Genres</a>
+                <a href="charity.html">Charity</a>
+                <a href="spotify.html">Spotify</a>
+                <div class="dropdown">
+                    <a href="vietnamese.html">Vietnam</a>
+                    <div class="dropdown-content">
+                        <a href="vpop.html">Vpop</a>
+                        <a href="rock.html">Rock</a>
+                        <a href="hiphop.html">Hiphop</a>
+                        <a href="karaoke.html">Karaoke</a>
+                    </div>
+                </div>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <div class="head">
+            <h1>Contact Us</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="newsletter-section">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with the latest music news, events, and releases from around the world. Join our community of music lovers and be the first to know about upcoming concerts, new releases, and exclusive content.</p>
+            <p>Music connects people worldwide, and our newsletter is designed to keep you in the loop about everything happening in the music scene - from V-pop to Classical, Rock to Jazz, and everything in between.</p>
+            
+            <div class="form-container">
+                <h3>Newsletter Registration</h3>
+                <form id="newsletter-form">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="country">Country of Residence:</label>
+                        <select id="country" name="country" required>
+                            <option value="" disabled selected>Select your country</option>
+                            <option value="Vietnam">Vietnam</option>
+                            <option value="United States">United States</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Canada">Canada</option>
+                            <option value="China">China</option>
+                            <option value="Japan">Japan</option>
+                            <option value="South Korea">South Korea</option>
+                            <option value="France">France</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="genre">Favorite Music Genre:</label>
+                        <select id="genre" name="genre" required>
+                            <option value="" disabled selected>Select your favorite genre</option>
+                            <option value="Pop">Pop</option>
+                            <option value="Hip-Hop & Rap">Hip-Hop & Rap</option>
+                            <option value="Rock">Rock</option>
+                            <option value="Dance & Electronic">Dance & Electronic</option>
+                            <option value="Latin">Latin</option>
+                            <option value="Indie & Alternative">Indie & Alternative</option>
+                            <option value="Classical">Classical</option>
+                            <option value="K-Pop">K-Pop</option>
+                            <option value="V-Pop">V-Pop</option>
+                            <option value="Country">Country</option>
+                            <option value="Metal">Metal</option>
+                            <option value="Jazz">Jazz</option>
+                            <option value="Blues">Blues</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="instruments">Musical Instruments You Play:</label>
+                        <input type="text" id="instruments" name="instruments">
+                    </div>
+                    
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="eventUpdates" name="eventUpdates">
+                        <label for="eventUpdates">I would like to receive updates about concerts and music events</label>
+                    </div>
+                    
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the terms and conditions</label>
+                    </div>
+                    
+                    <div class="form-buttons">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                        <button type="reset" class="btn btn-secondary">Reset Form</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="connect-section">
+            <h2>Other Ways to Connect</h2>
+            
+            <div class="contact-methods">
+                <div class="contact-item">
+                    <h3>Email Us</h3>
+                    <p><a href="mailto:Group6-ebdb5@gmail.com">Group6-ebdb5@gmail.com</a></p>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>Follow Us</h3>
+                    <ul class="social-links">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>Visit Us</h3>
+                    <address>
+                        National Economic University<br>
+                        Hanoi, Vietnam
+                    </address>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Music Website. All rights reserved.</p>
+        <div class="team-members">
+            <h3>Team Members:</h3>
+            <ul>
+                <li>Member Name (Student ID: 12345678)</li>
+                <li>Member Name (Student ID: 23456789)</li>
+                <li>Member Name (Student ID: 34567890)</li>
+                <li>Member Name (Student ID: 45678901)</li>
+                <li>Member Name (Student ID: 56789012)</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
